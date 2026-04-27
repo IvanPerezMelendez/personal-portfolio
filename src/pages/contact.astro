@@ -1,0 +1,40 @@
+---
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+---
+
+<PageLayout title="Contact" description="Get in touch with Ivan Perez Melendez.">
+  <TopLayout>
+    <div class="animate page-heading">
+      Interested in working together?
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate space-y-10 max-w-md">
+      <div class="space-y-3">
+        <p class="text-black/75 dark:text-white/75">
+          I'm always open to new opportunities, collaborations, or just a good conversation about tech and products. Send me an email and I'll get back to you.
+        </p>
+        <p class="font-medium text-black dark:text-white">
+          ivanpmelendez@gmail.com
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-4 pb-16">
+        <a
+          href="mailto:ivanpmelendez@gmail.com"
+          class="py-2.5 px-6 rounded text-sm font-medium bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
+        >
+          Send an email
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ivan-perez-melendez/"
+          target="_blank"
+          class="py-2.5 px-6 rounded text-sm font-medium border border-black/25 dark:border-white/25 text-black dark:text-white hover:bg-black/5 hover:dark:bg-white/15 blend"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </BottomLayout>
+</PageLayout>
