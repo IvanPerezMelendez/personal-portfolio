@@ -9,6 +9,7 @@ tags:
 - PostgreSQL
 - Docker
 demoUrl: https://batchcooking.ivanperezmelendez.com/home
+repoUrl: https://github.com/IvanPerezMelendez/batch-cooking
 ---
 
 A personal project born out of the frustration of figuring out what to eat every week.
