@@ -106,35 +106,12 @@ const stack = [
       <section class="animate">
         <article>
           <p>I am a <b><i>product-minded software developer</i></b>, <b><i>backend engineer</i></b>, <b><i>indie builder</i></b> and <b><i>eternal learner</i></b>.</p>
-          <p>I don't hide in a bubble writing code — I take ownership of the problems I work on, understand the "why" behind them, and build solutions that actually add value. I care as much about what gets built as how it gets built.</p>
-          <p>My stack</p>
-          <p>Python, FastAPI, Django, PostgreSQL, AWS and Docker are my daily tools. I've also worked with LLMs, vector databases and RAG workflows using LangChain.</p>
-          <p>Right now</p>
+          <p>I don't hide in a bubble writing code — I take <u>ownership</u> of the problems I work on, understand the <u>"why"</u> behind them, and build solutions that actually add value. I care as much about <u>what</u> gets built as <u>how</u> it gets built.</p>
+          <p class="font-semibold text-black dark:text-white underline underline-offset-4">My stack</p>
+          <p><b>Python</b>, <b>FastAPI</b>, <b>Django</b>, <b>PostgreSQL</b>, <b>AWS</b> and <b>Docker</b> are my daily tools. I work with <b>Redis</b> for caching, <b>RabbitMQ</b> and <b>Celery</b> for async tasks and message queuing, <b>SQLAlchemy</b> and <b>Alembic</b> for ORM and migrations, and <b>Pydantic</b> for data validation. I write tests with <b>Pytest</b>, automate deployments with <b>GitHub Actions</b>, and use <b>Claude Code</b> as my AI coding assistant.</p>
+          <p class="font-semibold text-black dark:text-white underline underline-offset-4">Right now</p>
           <p>I'm working as Product Backend Engineer at <b>Dcycle</b> — a sustainability tech startup — while building my own products on the side.</p>
         </article>
-      </section>
-
-      <!-- Blog Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent posts
-            </p>
-            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {posts.map((post) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
-          </ul>
-        </div>
       </section>
 
       <!-- Tech Stack Section -->
@@ -172,6 +149,29 @@ const stack = [
             {projects.map((project) => (
               <li>
                 <ArrowCard entry={project} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <!-- Blog Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              Recent posts
+            </p>
+            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                All posts
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {posts.map((post) => (
+              <li>
+                <ArrowCard entry={post} />
               </li>
             ))}
           </ul>
