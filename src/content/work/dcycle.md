@@ -1,12 +1,15 @@
 ---
 company: "Dcycle"
-role: "Product Backend Engineer"
+role: "Product Backend Developer"
 dateStart: "12/01/2024"
-dateEnd: "Now"
+dateEnd: "02/28/2026"
 ---
 
-Dcycle is a sustainability tech startup that helps companies digitalize and automate their ESG reporting. Part of LinkedIn's Top 10 most promising startups in Madrid.
+Dcycle is a fast-growing B2B SaaS scale-up that helps companies measure, manage and reduce their environmental impact through data-driven sustainability solutions, automating ESG reporting, carbon footprint calculations and regulatory compliance.
 
-- Designing and developing backend services and APIs with Python and FastAPI.
-- Taking end-to-end ownership of features, from architecture decisions to production deployment.
-- Working closely with product to understand business needs and translate them into reliable, scalable backend solutions.
+- Led backend development for a product team, owning architecture and delivery of critical platform modules.
+- Drove the redesign and migration of the application's calculation engine into a regulation-driven, fault-tolerant architecture supporting multiple sustainability methodologies and dynamic recalculations.
+- Built and maintained REST APIs and cloud-native services on AWS, automating infrastructure with AWS CDK (IaC).
+- Partnered with Product Managers and cross-functional teams (Data, Frontend, Design, Customer Success) across the full product lifecycle.
+- Architected relational database schemas ensuring data integrity, performance and reliable migrations.
+- Stack: Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL, AWS Lambda, API Gateway, Cognito, S3, DynamoDB, RDS, AWS CDK, Docker.

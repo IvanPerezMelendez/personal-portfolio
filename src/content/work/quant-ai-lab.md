@@ -1,12 +1,14 @@
 ---
 company: "QUANT AI Lab"
-role: "Software Developer"
+role: "Python Backend Developer"
 dateStart: "01/01/2024"
 dateEnd: "12/31/2024"
 ---
 
-Full-stack software development role at an AI-focused lab, working across both backend and frontend systems in a hybrid environment in Madrid.
+QUANT AI Lab is a fintech providing AI-driven financial risk and analytics solutions for banks, spanning risk management, portfolio optimization and quantitative analysis.
 
-- Backend development with Python and FastAPI.
-- Frontend work with React, Next.js and Redux.
-- Collaborated in a cross-functional team delivering AI-powered products.
+- Contributed to the migration of the Asset and Liability Management (ALM) tool from a legacy Java stack to Spring Boot, progressively evolving it into a FastAPI-based REST API architecture — one of the company's most critical technical migrations.
+- Designed API contracts and data structures in close coordination with the frontend team.
+- Optimized calculation processes, reducing execution times by 30%.
+- Pioneered client discovery practices and automated manual workflows, cutting completion time by 60% on certain tasks.
+- Stack: Python, FastAPI, SQL, Java, Spring Boot.
