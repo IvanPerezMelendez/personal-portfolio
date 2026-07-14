@@ -17,26 +17,20 @@ const projects = (await getCollection("projects"))
   .slice(0,3)
 
 const stack = [
-  {
-    text: "Python",
-    icon: "python",
-    href: "https://www.python.org"
-  },
-  {
-    text: "FastAPI",
-    icon: "fastapi",
-    href: "https://fastapi.tiangolo.com"
-  },
-  {
-    text: "PostgreSQL",
-    icon: "postgresql",
-    href: "https://www.postgresql.org"
-  },
-  {
-    text: "Docker",
-    icon: "docker",
-    href: "https://www.docker.com"
-  },
+  { text: "Python", icon: "python", href: "https://www.python.org" },
+  { text: "FastAPI", icon: "fastapi", href: "https://fastapi.tiangolo.com" },
+  { text: "Django", icon: "django", href: "https://www.djangoproject.com" },
+  { text: "PostgreSQL", icon: "postgresql", href: "https://www.postgresql.org" },
+  { text: "AWS", icon: "aws", href: "https://aws.amazon.com" },
+  { text: "Docker", icon: "docker", href: "https://www.docker.com" },
+  { text: "Redis", icon: "redis", href: "https://redis.io" },
+  { text: "RabbitMQ", icon: "rabbitmq", href: "https://www.rabbitmq.com" },
+  { text: "Celery", icon: "celery", href: "https://docs.celeryq.dev" },
+  { text: "SQLAlchemy", icon: "sqlalchemy", href: "https://www.sqlalchemy.org" },
+  { text: "Pydantic", icon: "pydantic", href: "https://pydantic.dev" },
+  { text: "Pytest", icon: "pytest", href: "https://pytest.org" },
+  { text: "GitHub Actions", icon: "githubactions", href: "https://github.com/features/actions" },
+  { text: "Claude Code", icon: "claude", href: "https://claude.com/claude-code" },
 ]
 ---
 
@@ -105,12 +99,10 @@ const stack = [
       <!-- About Section -->
       <section class="animate">
         <article>
-          <p>I am a <b><i>product-minded software developer</i></b>, <b><i>backend engineer</i></b>, <b><i>indie builder</i></b> and <b><i>eternal learner</i></b>.</p>
-          <p>I don't hide in a bubble writing code — I take <u>ownership</u> of the problems I work on, understand the <u>"why"</u> behind them, and build solutions that actually add value. I care as much about <u>what</u> gets built as <u>how</u> it gets built.</p>
-          <p class="font-semibold text-black dark:text-white underline underline-offset-4">My stack</p>
-          <p><b>Python</b>, <b>FastAPI</b>, <b>Django</b>, <b>PostgreSQL</b>, <b>AWS</b> and <b>Docker</b> are my daily tools. I work with <b>Redis</b> for caching, <b>RabbitMQ</b> and <b>Celery</b> for async tasks and message queuing, <b>SQLAlchemy</b> and <b>Alembic</b> for ORM and migrations, and <b>Pydantic</b> for data validation. I write tests with <b>Pytest</b>, automate deployments with <b>GitHub Actions</b>, and use <b>Claude Code</b> as my AI coding assistant.</p>
+          <p>I am a <b><i>senior backend engineer</i></b>, <b><i>product-minded builder</i></b>, <b><i>indie hacker</i></b> and <b><i>eternal learner</i></b>.</p>
+          <p>I've moved between fast-growing scale-ups and larger, more consolidated organizations, which gave me a practical read on what actually works — from architecture decisions to team processes. I don't hide in a bubble writing code — I take <u>ownership</u> of the problems I work on, understand the <u>"why"</u> behind them, and build solutions that actually add value. I care as much about <u>what</u> gets built as <u>how</u> it gets built.</p>
           <p class="font-semibold text-black dark:text-white underline underline-offset-4">Right now</p>
-          <p>I'm working as Product Backend Engineer at <b>Dcycle</b> — a sustainability tech startup — while building my own products on the side.</p>
+          <p>I'm leading backend architecture and a team of engineers on <b>Edux</b>, an AI-powered EdTech platform at <b>PROEDUCA (UNIR)</b> serving 120K+ users — while building my own products on the side.</p>
         </article>
       </section>
 
